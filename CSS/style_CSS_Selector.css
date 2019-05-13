@@ -1,0 +1,140 @@
+* {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(100, 100, 100);
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 50%;
+}
+
+article,
+header,
+footer {
+    max-width: 100vw;
+}
+
+header,
+section {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+header {
+    border-bottom: 2px dashed darkblue;
+    text-align: center;
+    color: blue;
+}
+
+#sec1 {
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+h2 {
+    margin: 2px;
+    padding: 10px;
+    color: red;
+    font-size: 150%;
+    text-align: center
+}
+
+img {
+    border-radius: 70%;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+h2::before,
+h2::after {
+    color: purple
+}
+
+.p_title {
+    color: brown;
+    text-align: center;
+    font-size: 300%;
+}
+
+h4 {
+    color: blue;
+    text-align: center;
+    text-decoration: underline
+}
+
+#sec1 img {
+    width: 5%;
+    height: 5%;
+}
+
+nav li {
+    padding: 5px;
+    display: inline-grid;
+}
+
+nav {
+    position: fixed;
+    background-color: lightslategray;
+    top: 0.5em;
+    right: 0.5em;
+    opacity: 0.6;
+    padding: 0em 1em 0em 1em;
+}
+
+#u1 a:link,
+#u1 a:visited {
+    color: white;
+    font-weight: bolder;
+}
+
+#u1 li:hover {
+    background-color: gainsboro;
+}
+
+#u1 a:hover {
+    text-decoration: none;
+    color: red
+}
+
+.p_list {
+    float: left;
+    width: 260px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.p_list li,
+.desc {
+    text-align: left
+}
+
+.p_list_footerclearfix {
+    clear: both;
+    text-align: center;
+}
+
+#sec5 {
+    border: none;
+}
+
+.p_title {
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    font-size: 300%;
+}
+
+h1 {
+    font-size: 300%;
+}
