@@ -4,12 +4,12 @@
 }
 
 body {
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(160, 167, 231);
     margin-top: 50px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: 50%;
+    background-size: 100%
 }
 
 article,
@@ -28,12 +28,12 @@ section {
 }
 
 header {
-    border-bottom: 2px dashed darkblue;
+    border-bottom: 2px dashed yellow;
     text-align: center;
     color: blue;
 }
 
-#sec1 {
+section {
     border: 2px solid;
     border-radius: 10px;
     padding: 15px;
@@ -44,36 +44,49 @@ h2 {
     padding: 10px;
     color: red;
     font-size: 150%;
-    text-align: center
+    text-align: center;
+    font-family: 標楷體
 }
 
 img {
-    border-radius: 70%;
     width: 100px;
     height: 100px;
-    background-color: white;
 }
 
 h2::before,
 h2::after {
+    content: "";
     color: purple
 }
 
 .p_title {
     color: brown;
     text-align: center;
-    font-size: 300%;
 }
 
 h4 {
-    color: blue;
+    color: red;
     text-align: center;
-    text-decoration: underline
+    text-decoration: underline;
+    font-family: 標楷體;
+}
+
+footer {
+    background-color: burlywood;
+    border: 1px dotted green;
+    width: 80%;
+    Margin: auto;
+    border-left: none;
+    border-right: none;
+}
+
+footer section {
+    border: none;
 }
 
 #sec1 img {
-    width: 5%;
-    height: 5%;
+    width: 50px;
+    height: 50px;
 }
 
 nav li {
@@ -87,7 +100,7 @@ nav {
     top: 0.5em;
     right: 0.5em;
     opacity: 0.6;
-    padding: 0em 1em 0em 1em;
+    padding: 1em 1em 1em 1em;
 }
 
 #u1 a:link,
@@ -108,8 +121,8 @@ nav {
 .p_list {
     float: left;
     width: 260px;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     text-align: center;
 }
 
@@ -123,18 +136,14 @@ nav {
     text-align: center;
 }
 
-#sec5 {
-    border: none;
-}
-
 .p_title {
-    border: 1px solid;
+    border: 1px solid black;
     border-left: none;
     border-right: none;
     padding: 10px;
-    font-size: 300%;
 }
 
 h1 {
-    font-size: 300%;
+    font-size: 200%;
+    font-family: 標楷體;
 }
