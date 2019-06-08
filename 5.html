@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Karma", sans-serif
+    }
+    
+    .w3-bar-block .w3-bar-item {
+        padding: 20px
+    }
+</style>
+
+<body>
+
+    <!-- Sidebar (hidden by default) -->
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+        <a href="1.html" onclick="w3_close()" class="w3-bar-item w3-button">日本沖繩</a>
+        <a href="2.html" onclick="w3_close()" class="w3-bar-item w3-button">日本九州</a>
+        <a href="3.html" onclick="w3_close()" class="w3-bar-item w3-button">日本四國</a>
+        <a href="4.html" onclick="w3_close()" class="w3-bar-item w3-button">日本大阪</a>
+        <a href="5.html" onclick="w3_close()" class="w3-bar-item w3-button">日本京都</a>
+        <a href="6.html" onclick="w3_close()" class="w3-bar-item w3-button">日本北海道</a>
+    </nav>
+
+    <!-- Top menu -->
+    <div class="w3-top">
+        <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+            <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+            <div class="w3-button w3-padding-16 w3-right" onclick="w3_open()"><a href="index.html">首頁</a>
+                <a href="黑色沙漠角色介紹.html ">黑色沙漠</a>
+                <a href="1.html ">日本</a></diV>
+            <div class="w3-center w3-padding-16">日本京都</div>
+        </div>
+    </div>
+
+    <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+            <div class="w3-quarter">
+                <img src="img/55.jpg" alt="Sandwich" style="width:100%">
+                <h3> 嵐山</h3>
+                <p>地址：京都市右京区嵐山
+                    <br> 交通方式：JR嵯峨嵐山駅から徒歩約10分
+                    <br>京福嵐山線嵐山駅下車または阪急嵐山線嵐山駅下車
+                </p>
+            </div>
+            <div class="w3-quarter">
+                <img src="img/56.jpg" alt="Steak" style="width:100%">
+                <h3>金閣寺</h3>
+                <p>地址：京都市北区金閣寺町1 開放時間： 09:00–17:00 交通：京都駅より市バス「金閣寺道」下車徒歩5分
+                </p>
+            </div>
+            <div class="w3-quarter">
+                <img src="img/57.jpg" alt="Cherries" style="width:100%">
+                <h3>伏見稻荷神社</h3>
+                <p>地址：京都市伏見区深草薮之内町68番地
+                    <br>交通方式：
+                    <br> 京阪電車＿伏見稻荷站
+                    <br> JR奈良線_稻荷站</p>
+
+            </div>
+            <div class="w3-quarter">
+                <img src="img/58.jpg" alt="Pasta and Wine" style="width:100%">
+                <h3>清水寺</h3>
+                <p>地址：京都府京都市東山區清水1-294
+                    <br>交通方式：阪急京都線河原町駅または京阪本線祇園四条駅から市バス「清水道」下車徒歩約10分
+                    <br>JR京都駅から市バス約20分「五条坂」または「清水道」下車徒歩約10分
+                </p>
+            </div>
+        </div>
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center">
+            <div class="w3-quarter">
+                <img src="img/59.jpg" alt="Popsicle" style="width:100%">
+                <h3>祇園‧円山公園‧八阪神社</h3>
+                <p>賞楓地點：祇園‧円山公園‧八阪神社
+                    <br>地址： 辰己大明神 京都府京都市東山区元吉町
+                    <br>交通方式：京都市巴士搭乘100在「祇園‧円山公園‧八阪神社」下車
+                </p>
+            </div>
+            <div class="w3-quarter">
+                <img src="img/60.jpg" alt="Salmon" style="width:100%">
+                <h3>京都塔</h3>
+                <p>地址： 日本〒600-8216 Kyoto Prefecture, Kyoto, Shimogyo Ward, 東塩小路町７２１－１
+                    <br>營業時間：9:00 AM – 9:00 PM（最終入場時間8:40 PM）
+                </p>
+            </div>
+            <div class="w3-quarter">
+                <img src="img/61.jpg" alt="Sandwich" style="width:100%">
+                <h3>二條城</h3>
+                <p>賞楓地點：二條城
+                    <br>地址： 604-8301京都市中京区二条通堀川西入二条城町541
+                    <br>交通方式：從京都車搭烏丸線到「烏丸御池」，再轉東西線到「二条城前」下車或搭乘京都市巴士9、50、101號
+                    <br> 也可在四条街搭京都巴士12號
+                </p>
+            </div>
+            <div class="w3-quarter">
+                <img src="img/62.jpg" alt="Croissant" style="width:100%">
+                <h3>鴨川</h3>
+                <p>地址：日本〒602-0033 京都府京都 Kamigyo Ward, 今出川通
+                    <br>交通：地鐵出町柳站
+                </p>
+            </div>
+        </div>
+        <hr id="about">
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-32 w3-center">
+
+            <img src="img/72.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+            <div class="w3-padding-32">
+                <h4><b>日本京都</b></h4>
+                <h6><i>きょうとし</i></h6>
+                <p>是位於日本京都府南部的城市，為京都府府治，也是政令指定都市之一。京都市的面積為827.83平方公里，下轄11個區。2017年10月，京都市有人口1,472,027人，是日本人口第八多的都市。京都市還和京都府南部、滋賀縣西部及大阪府的部份地區共同組成了「京都都市圈」，其人口數約有379萬。京都市也是「京阪神都會區」的一部份。</p>
+            </div>
+        </div>
+        <hr>
+        <script>
+            // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+            }
+        </script>
+        <audio src="京都秋艶 autumn colors momiji leaves in Kyoto Japan  紅葉.mp3" autoplay loop></audio>
+</body>
+
+</html>

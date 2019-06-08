@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Karma", sans-serif
+    }
+    
+    .w3-bar-block .w3-bar-item {
+        padding: 20px
+    }
+</style>
+
+<body>
+
+    <!-- Sidebar (hidden by default) -->
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+        <a href="1.html" onclick="w3_close()" class="w3-bar-item w3-button">日本沖繩</a>
+        <a href="2.html" onclick="w3_close()" class="w3-bar-item w3-button">日本九州</a>
+        <a href="3.html" onclick="w3_close()" class="w3-bar-item w3-button">日本四國</a>
+        <a href="4.html" onclick="w3_close()" class="w3-bar-item w3-button">日本大阪</a>
+        <a href="5.html" onclick="w3_close()" class="w3-bar-item w3-button">日本京都</a>
+        <a href="6.html" onclick="w3_close()" class="w3-bar-item w3-button">日本北海道</a>
+    </nav>
+
+    <!-- Top menu -->
+    <div class="w3-top">
+        <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+            <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+            <div class="w3-button w3-padding-16 w3-right" onclick="w3_open()"><a href="index.html">首頁</a>
+                <a href="黑色沙漠角色介紹.html ">黑色沙漠</a>
+                <a href="1.html ">日本</a></diV>
+            <div class="w3-center w3-padding-16">日本沖繩</div>
+        </div>
+    </div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+            <div class="w3-quarter">
+                <img src="img/23.jpg" alt="Sandwich" style="width:100%">
+                <h3> 美麗海水族館
+                    <br>(沖縄美ら海水族館)</h3>
+                <p>▶︎開放時間：三月到九月08:30~20:00／十月到二月08:30~18:30
+                    <br>▶︎入場費：大人 1850日圓／高中生 1230日圓／中小學生 610日圓／未滿6歲免費 而想省錢的朋友4點以後還有優惠票價唷～
+                    <br>▶︎交通：如從那霸機場出發，可搭乘YANBARU急行巴士(やんばる急行巴士)，在「記念公園前」下車
+                    <br>▶︎地址：沖繩縣國頭郡本部町字石川 </p>
+            </div>
+            <div class="w3-quarter">
+                <img src="img/24.jpg" alt="Steak" style="width:100%">
+                <h3>勝連城跡
+                    <br>(カッチングシク)</h3>
+                <p>▶︎開放時間：自由參觀
+                    <br>▶︎入場費：免費
+                    <br>▶︎交通：搭乘單軌電車到「旭橋站」，步行5分鐘至那覇巴士總站，再搭乘與勝線（52路）到勝連團地前巴士站，步行約5分鐘
+                    <br>▶︎地址：沖繩縣宇流麻市勝連南風原 </p>
+            </div>
+            <div class="w3-quarter">
+                <img src="img/25.jpg" alt="Cherries" style="width:100%">
+                <h3>首里城
+                    <br>(スイグシク)</h3>
+                <p>▶︎需門票區開放時間：四月到六月 08:30~19:00／七月到九月 08:30~20:00／十月到十一月 08:30~19:00／十二月到三月 08:30~18:00
+                    <br> ▶︎入場費：大人 820日圓／高中生 620日圓／中小學生 310日圓／未滿6歲免費
+                    <br> ▶︎交通：搭乘單軌電車到首里站，步行15-20分鐘可到守禮門
+                    <br>▶︎地址：沖繩縣那霸市首里金城町</p>
+
+            </div>
+            <div class="w3-quarter">
+                <img src="img/26.jpg" alt="Pasta and Wine" style="width:100%">
+                <h3>波上宮
+                    <br>(なみのうえぐう)</h3>
+                <p>▶︎開放時間：全日開放
+                    <br>▶︎入場費：免費
+                    <br>▶︎交通：搭乘單軌電車至旭橋站，步行約15-20分鐘
+                    <br>▶︎地址：沖繩縣那霸市若狹</p>
+            </div>
+        </div>
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center">
+            <div class="w3-quarter">
+                <img src="img/27.jpg" alt="Popsicle" style="width:100%">
+                <h3>玉泉洞
+                    <br>(ぎょくせんどう)</h3>
+                <p>▶︎開放時間：9:00～18:00（最後受理17:00）
+                    <br>▶︎入場費：大人1650日圓／小孩830日圓
+                    <br>▶︎交通：那霸公車總站第11區搭83號公車至玉泉洞
+                    <br>▶︎地址：沖縄県南城市玉城字前川</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="img/28.jpg" alt="Salmon" style="width:100%">
+                <h3>齋場御嶽
+                    <br>(せいふぁうたき)</h3>
+                <p>▶︎開放時間：三月到十月 09:00~18:00(最終入場時間17:30)／十一月到二月 09:00~17:30(最終入場時間17:00)
+                    <br>▶︎入場費：大人300日圓／中小學生150日圓
+                    <br>▶︎交通：那霸巴士總站搭乘東陽38號巴士到齋場御嶽入口（座標：26.173452, 127.825980）
+                    <br>▶︎地址：沖繩縣南城市知念字久手堅 </p>
+            </div>
+            <div class="w3-quarter">
+                <img src="img/29.jpg" alt="Sandwich" style="width:100%">
+                <h3>知念岬公園(
+                    <br>知念岬)</h3>
+                <p>▶︎開放時間：全天開放
+                    <br> ▶︎入場費：免費
+                    <br>▶︎交通：那霸巴士總站搭乘東陽38號巴士到齋場御嶽入口，步行10-15分鐘到知念岬公園
+                    <br> ▶︎地址：沖縄県南城市知念久手堅</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="img/30.jpg" alt="Croissant" style="width:100%">
+                <h3>美國村
+                    <br>(アメリカ村)</h3>
+                <p>▶︎開放時間：各店不同，視店家而定
+                    <br>▶︎入場費：免費
+                    <br>▶︎交通：那霸公車總站搭乘20, 28, 29號公車至桑江站，再步行5分鐘
+                    <br>▶︎地址：沖繩縣中頭郡北谷町字美濱</p>
+            </div>
+        </div>
+        <hr id="about">
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-32 w3-center">
+
+            <img src="img/76.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+            <div class="w3-padding-32">
+                <h4><b>日本沖繩</b></h4>
+                <h6><i>おきなわけん</i></h6>
+                <p>是日本最西南側的一個縣，縣廳所在地是那霸市。沖繩縣由琉球群島中的沖繩群島、先島群島以及太平洋中的大東群島組成，隔海和九州的鹿兒島縣相鄰。全縣由160個島嶼組成，其中49個有人居住，面積約2,281平方公里，是日本陸地面積第四小的縣。但沖繩縣包括了廣大的海域面積，東西寬約1,000公里，南北長約400公里，算上海域面積的沖繩縣面積則相當於本州、四國、九州面積總和的一半。沖繩縣全境屬於亞熱帶氣候，全年氣候溫暖且降水充沛。</p>
+            </div>
+        </div>
+        <hr>
+        <script>
+            // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+            }
+        </script>
+
+
+
+        <audio src="COVER 日本經典沖繩民謠《島唄》shima uta.mp3" autoplay loop></audio>
+
+</body>
+
+</html>

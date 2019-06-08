@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Karma", sans-serif
+    }
+    
+    .w3-bar-block .w3-bar-item {
+        padding: 20px
+    }
+</style>
+
+<body>
+
+    <!-- Sidebar (hidden by default) -->
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+        <a href="1.html" onclick="w3_close()" class="w3-bar-item w3-button">日本沖繩</a>
+        <a href="2.html" onclick="w3_close()" class="w3-bar-item w3-button">日本九州</a>
+        <a href="3.html" onclick="w3_close()" class="w3-bar-item w3-button">日本四國</a>
+        <a href="4.html" onclick="w3_close()" class="w3-bar-item w3-button">日本大阪</a>
+        <a href="5.html" onclick="w3_close()" class="w3-bar-item w3-button">日本京都</a>
+        <a href="6.html" onclick="w3_close()" class="w3-bar-item w3-button">日本北海道</a>
+    </nav>
+
+    <!-- Top menu -->
+    <div class="w3-top">
+        <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+            <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+            <div class="w3-button w3-padding-16 w3-right" onclick="w3_open()"><a href="index.html">首頁</a>
+                <a href="黑色沙漠角色介紹.html ">黑色沙漠</a>
+                <a href="1.html ">日本</a></diV>
+            <div class="w3-center w3-padding-16">日本北海道</div>
+        </div>
+    </div>
+
+    <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+            <div class="w3-quarter">
+                <img src="img/63.jpg" alt="Sandwich" style="width:100%">
+                <h3> 富田農場</h3>
+                <p>交通：從JR 富良野線的「富良野站」或從JR函館本線的「旭川站」乘車,到「薰衣草花田車站」下車。從薰衣草花田車站到富田農場步行約7-8分鐘。
+                </p>
+            </div>
+            <div class="w3-quarter">
+                <img src="img/64.jpg" alt="Steak" style="width:100%">
+                <h3>函館山</h3>
+                <p>交通：
+                    <br>從「十字街電車站」下車，步行至纜車搭乘處約10分鐘
+                    <br> 搭乘函館山登山巴士，直接從 JR函館駅出發，經由灣區上函館山的登山路線巴士，不需轉乘，交通順暢時只需 30分鐘即可到達山頂，單程票價大約 400円。
+                </p>
+            </div>
+            <div class="w3-quarter">
+                <img src="img/65.jpg" alt="Cherries" style="width:100%">
+                <h3>小樽運河</h3>
+                <p>交通：從JR小樽火車站出小樽車站後，步行約10分鐘</p>
+
+            </div>
+            <div class="w3-quarter">
+                <img src="img/66.jpg" alt="Pasta and Wine" style="width:100%">
+                <h3>大通公園</h3>
+                <p>交通：搭乘地鐵東西線、南北線、東豐線至大通站下車，從2、5、6、8或7號出口出來即到。
+                </p>
+            </div>
+        </div>
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center">
+            <div class="w3-quarter">
+                <img src="img/67.jpg" alt="Popsicle" style="width:100%">
+                <h3>旭山動物園</h3>
+                <p>交通：從新千歲機場前往札幌站，再從札幌站前往旭川站。若搭乘速度最快的JR列車，從新千歲機場到旭川站，大概需要花費2小時10分鐘左右。
+                </p>
+            </div>
+            <div class="w3-quarter">
+                <img src="img/68.jpg" alt="Salmon" style="width:100%">
+                <h3>さっぽろ羊ヶ丘展望台</h3>
+                <p>交通：從地鐵東豐線札幌站，轉搭北海道中央巴士89號約13分鐘
+                </p>
+            </div>
+            <div class="w3-quarter">
+                <img src="img/69.jpg" alt="Sandwich" style="width:100%">
+                <h3>四季彩の丘</h3>
+                <p>交通：從JR美馬牛車站騎單車出發，約5分鐘便可抵達
+                </p>
+            </div>
+            <div class="w3-quarter">
+                <img src="img/70.jpg" alt="Croissant" style="width:100%">
+                <h3>オシンコシンの滝</h3>
+                <p>地址：北海道斜里郡斜里町峰浜
+
+                    <br>交通：ＪＲ知床斜里駅
+                </p>
+            </div>
+        </div>
+
+        <hr id="about">
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-32 w3-center">
+
+            <img src="img/71.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+            <div class="w3-padding-32">
+                <h4><b>日本北海道</b></h4>
+                <h6><i>ほっかいどう</i></h6>
+                <p>是日本最北端的一級行政區，亦是日本現時唯一以「道」取名的行政區劃，道廳所在地（首府）是札幌市。全境面積83,423.84平方公里，是日本面積最大的一級行政區。北海道的人口約有534萬人，是日本人口第八多的一級行政區。北海道亦可以指該行政區所在的島嶼。北海道本島和本州、四國、九州並為日本四大島嶼，面積77,983.92平方公里，是日本面積第二大島嶼，亦是世界面積第21大島嶼。</p>
+            </div>
+        </div>
+        <hr>
+        <script>
+            // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+            }
+        </script>
+        <audio src="大地之詩 冬 北海道.mp3" autoplay loop></audio>
+</body>
+
+</html>
