@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" style="height:100%">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="CSS\style1.css">
+    <link rel="stylesheet" href="CSS\bootstrap-grid.css">
+
+
+
+    <title>留言板</title>
+</head>
+<style>
+    #message5 {
+        font-size: 40px;
+        text-align: center;
+        margin: 10px;
+        font-family: '標楷體';
+        font-weight: inherit;
+    }
+    
+    body {
+        background-image: url("img/88.jpg");
+        background-color: bisque;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #mySidebar {
+        background-image: url("img/99.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+</style>
+
+<body>
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="color: rgb(223, 255, 255);display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">
+            首頁</a>
+        <a href="黑色沙漠角色介紹.html " onclick="w3_close()" class="w3-bar-item w3-button">
+            黑色沙漠
+        </a>
+        <a href="1.html" onclick="w3_close()" class="w3-bar-item w3-button">
+            日本
+        </a>
+        <a href="留言版.html" onclick="w3_close()" class="w3-bar-item w3-button">
+            留言版
+        </a>
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button ">
+            收起
+        </a>
+
+    </nav>
+
+    <!-- Top menu -->
+    <div class="w3-top">
+        <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+            <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:200px">
+
+        <!-- Push down content on small screens -->
+        <div class="w3-hide-large" style="margin-top:83px"></div>
+
+        <div id="frame">
+            <h5 id="message5">留言板</h5>
+            <iframe src="https://www6.cbox.ws/box/?boxid=826285&boxtag=6w3MCQ" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+        </div>
+        <script>
+            // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+
+            // Modal Image Gallery
+            function onClick(element) {
+                document.getElementById("img01").src = element.src;
+                document.getElementById("modal01").style.display = "block";
+                var captionText = document.getElementById("caption");
+                captionText.innerHTML = element.alt;
+            }
+            // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+            }
+        </script>
+</body>
+
+</html>
